@@ -55,13 +55,11 @@ namespace Day5
                     //Position mode
                     if (param[i] == 0)
                     {
-                        //values[i] devient la position ou le stocker
                         values[i] = intCodes[position + 1 + i];
                     }
                     //Immediate mode
                     else
                     {
-                        //values[i] devient la position ou le stocker
                         values[i] = position + 1 + i;
                     }
                 }
